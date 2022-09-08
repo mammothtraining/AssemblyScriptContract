@@ -1,0 +1,22 @@
+{
+  "name": "assemblyscriptcontract",
+  "version": "1.0.0",
+  "description": "My first smart contract.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mammothtraining/AssemblyScriptContract.git"
+  },
+  "author": "Mammoth Interactive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mammothtraining/AssemblyScriptContract/issues"
+  },
+  "homepage": "https://github.com/mammothtraining/AssemblyScriptContract#readme",
+  "devDependencies": {
+    "near-sdk-as": "^3.2.3"
+  }
+}
