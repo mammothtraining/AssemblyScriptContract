@@ -7,7 +7,7 @@ class Greeting {
             "Greeting not available"); 
     }
 
-    setGreeting(greeting: string) { 
+    setGreeting(greeting: string): void { 
 
         storage.set(Context.sender, greeting);
 
