@@ -1,6 +1,6 @@
 import { storage, Context } from "near-sdk-as";
 
-class Greeting { 
+export class Greeting { 
 
     getGreeting(accountId: string): string | null { 
         return storage.get<string>(accountId, 
